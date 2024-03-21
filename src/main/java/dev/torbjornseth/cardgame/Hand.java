@@ -103,7 +103,7 @@ public class Hand {
    * @return the cards in the hand as a string
    * @since 1.1
    */
-  public String getHearts(char suit) {
+  public String getSuits(char suit) {
     String value = Stream.of(cards)
         .filter(card -> card.suit() == suit)
         .sorted(Comparator.comparing(PlayingCard::face))

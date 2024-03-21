@@ -64,7 +64,7 @@ class HandTest {
 
   @Test
   void getHearts() {
-    assertEquals("1S 2S 3S 4S 5S", hand.getHearts('S'));
-    assertEquals("No hearts", hand.getHearts('H'));
+    assertEquals("1S 2S 3S 4S 5S", hand.getSuits('S'));
+    assertEquals("No hearts", hand.getSuits('H'));
   }
 }

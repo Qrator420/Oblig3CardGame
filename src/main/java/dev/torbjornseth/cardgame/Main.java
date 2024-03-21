@@ -104,7 +104,7 @@ public class Main extends Application {
 
     // Adding the information to the info box
     Label sumField = new Label("Sum: " + hand.getSum());
-    Label hearts = new Label("Hearts: " + hand.getHearts('H'));
+    Label hearts = new Label("Hearts: " + hand.getSuits('H'));
     Label flush = new Label("Flush: " + hand.checkFlush(5));
     Label queenOfSpades = new Label("Queen of Spades: " + hand.containsCard('S', 12));
 
